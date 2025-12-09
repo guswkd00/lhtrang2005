@@ -1,0 +1,39 @@
+/* Biến màu và thiết lập chung */
+:root {
+    --primary: #2a9d8f;
+    --secondary: #264653;
+    --accent: #e76f51;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+/* Reset và base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--dark);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* Thêm các style khác... */
